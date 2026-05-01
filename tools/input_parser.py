@@ -1,18 +1,38 @@
-def parse_travel_request(request: str) -> dict[str, str | int]:
+import json
+
+def validate_travel_constraints(destination: str, days: int, travelers: int, budget_type: str) -> dict[str, str | int]:
     """
-    Parses the user's natural language request to extract constraints.
-    (Student 1 will implement the actual parsing logic here using LLM or Regex).
+    Validates and normalizes the travel constraints extracted by the LLM.
+    Strictly checks for positive integers and supported budget types.
     
     Args:
-        request (str): The raw input from the user.
+        destination (str): The target city.
+        days (int): Number of days for the trip. Must be > 0.
+        travelers (int): Number of people traveling. Must be > 0.
+        budget_type (str): The tier of budget ('budget', 'standard', 'luxury').
         
     Returns:
-        dict: A dictionary containing 'destination', 'days', 'travelers', and 'budget_type'.
+        dict: A validated dictionary containing the normalized constraints.
+              If validation fails for an item, defaults or error messages are provided.
     """
-    # TODO: Implement extraction logic
+    # Normalize inputs
+    days = int(days) if str(days).isdigit() or isinstance(days, int) else 1
+    travelers = int(travelers) if str(travelers).isdigit() or isinstance(travelers, int) else 1
+    budget_type = str(budget_type).lower()
+    
+    # Enforce constraints
+    if days < 1:
+        days = 1
+    if travelers < 1:
+        travelers = 1
+        
+    valid_budgets = ["budget", "standard", "luxury"]
+    if budget_type not in valid_budgets:
+        budget_type = "standard"
+        
     return {
-        "destination": "Unknown",
-        "days": 0,
-        "travelers": 0,
-        "budget_type": "standard"
+        "destination": str(destination).strip(),
+        "days": days,
+        "travelers": travelers,
+        "budget_type": budget_type
     }

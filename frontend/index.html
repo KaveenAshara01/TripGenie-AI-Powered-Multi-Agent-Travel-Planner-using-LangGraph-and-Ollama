@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripGenie | AI Travel Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-container">
+        <header>
+            <h1>✈️ TripGenie</h1>
+            <p>Your AI-Powered Multi-Agent Travel Planner</p>
+        </header>
+
+        <div class="input-section">
+            <textarea id="userRequest" placeholder="e.g., Plan a 4-day budget-friendly trip to Ella for two people with adventure activities..."></textarea>
+            <button id="planBtn" onclick="planTrip()">Generate Itinerary</button>
+        </div>
+
+        <div id="loader" class="hidden">
+            <div class="spinner"></div>
+            <p>Agents are collaborating...</p>
+        </div>
+
+        <div id="results" class="hidden">
+            <div class="summary-cards">
+                <div class="card">
+                    <h3>📍 Destination</h3>
+                    <p id="resDestination">-</p>
+                </div>
+                <div class="card">
+                    <h3>📅 Duration</h3>
+                    <p id="resDays">-</p>
+                </div>
+                <div class="card">
+                    <h3>👥 Travelers</h3>
+                    <p id="resTravelers">-</p>
+                </div>
+                <div class="card">
+                    <h3>💰 Budget Tier</h3>
+                    <p id="resBudget">-</p>
+                </div>
+            </div>
+
+            <div class="itinerary-section">
+                <h2>📝 Generated Itinerary</h2>
+                <div id="resItinerary" class="itinerary-content"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
