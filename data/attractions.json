@@ -1,0 +1,14 @@
+[
+  {"id": 1, "name": "Galle Fort Walk", "location": "galle", "duration_hours": 2, "type": "culture"},
+  {"id": 2, "name": "Unawatuna Beach Snorkeling", "location": "galle", "duration_hours": 3, "type": "adventure"},
+  {"id": 3, "name": "Maritime Museum", "location": "galle", "duration_hours": 1, "type": "culture"},
+  {"id": 4, "name": "Nine Arches Bridge", "location": "ella", "duration_hours": 2, "type": "sightseeing"},
+  {"id": 5, "name": "Little Adam's Peak Hike", "location": "ella", "duration_hours": 3, "type": "adventure"},
+  {"id": 6, "name": "Ravana Falls", "location": "ella", "duration_hours": 1, "type": "sightseeing"},
+  {"id": 7, "name": "Temple of the Sacred Tooth Relic", "location": "kandy", "duration_hours": 2, "type": "culture"},
+  {"id": 8, "name": "Peradeniya Botanical Gardens", "location": "kandy", "duration_hours": 3, "type": "nature"},
+  {"id": 9, "name": "Kandy Lake Walk", "location": "kandy", "duration_hours": 1, "type": "leisure"},
+  {"id": 10, "name": "Gangaramaya Temple", "location": "colombo", "duration_hours": 2, "type": "culture"},
+  {"id": 11, "name": "Galle Face Green Sunset", "location": "colombo", "duration_hours": 2, "type": "leisure"},
+  {"id": 12, "name": "National Museum", "location": "colombo", "duration_hours": 2, "type": "culture"}
+]
