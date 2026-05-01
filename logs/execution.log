@@ -1,0 +1,44 @@
+2026-05-02 01:29:15,857 - CoordinatorAgent - INFO - Coordinator Agent Started
+2026-05-02 01:29:15,857 - CoordinatorAgent - INFO - Input request: plan a 4 day trip to ella
+
+2026-05-02 01:29:15,860 - CoordinatorAgent - INFO - Calling Llama3 LLM to extract constraints...
+2026-05-02 01:29:49,065 - CoordinatorAgent - INFO - LLM Extracted Raw Data: {'destination': 'Ella', 'days': 4, 'travelers': 1, 'budget_type': 'standard'}
+2026-05-02 01:29:49,066 - CoordinatorAgent - INFO - Tool Validated Data: {'destination': 'Ella', 'days': 4, 'travelers': 1, 'budget_type': 'standard'}
+2026-05-02 01:29:49,066 - CoordinatorAgent - INFO - Coordinator Agent Finished
+2026-05-02 01:29:49,070 - BudgetAgent - INFO - Budget Agent Started
+2026-05-02 01:29:49,072 - BudgetAgent - INFO - Tool Calculated Budget: {'total_cost': 132000, 'hotel_cost': 60000, 'food_cost': 32000, 'transport_cost': 20000, 'activities_cost': 20000}
+2026-05-02 01:29:49,072 - BudgetAgent - INFO - Calling Llama3 LLM to generate budget tip...
+2026-05-02 01:30:07,181 - BudgetAgent - INFO - LLM Budget Tip: When traveling to Sri Lanka's scenic Ella, consider allocating at least 20% of your budget towards transportation and activities to fully experience the region's natural beauty.
+2026-05-02 01:30:07,181 - BudgetAgent - INFO - Budget Agent Finished
+2026-05-02 01:30:07,182 - AccommodationAgent - INFO - Accommodation Agent Started
+2026-05-02 01:30:07,184 - AccommodationAgent - INFO - Tool Found Hotels: 1
+2026-05-02 01:30:07,184 - AccommodationAgent - INFO - Calling Llama3 LLM to select the best hotel...
+2026-05-02 01:30:30,719 - AccommodationAgent - INFO - LLM Chosen Hotel: {'name': 'Ella Standard Inn', 'price_per_night': 11000, 'rating': 4.0}
+2026-05-02 01:30:30,720 - AccommodationAgent - INFO - Accommodation Agent Finished
+2026-05-02 01:30:30,722 - ItineraryAgent - INFO - Itinerary Agent Started
+2026-05-02 01:30:30,724 - ItineraryAgent - INFO - Generated Skeleton Draft Schedule via Tool
+2026-05-02 01:30:30,724 - ItineraryAgent - INFO - Calling Llama3 LLM to finalize itinerary text...
+2026-05-02 01:31:12,557 - ItineraryAgent - INFO - LLM Successfully generated final itinerary
+2026-05-02 01:31:12,557 - ItineraryAgent - INFO - Itinerary Agent Finished
+2026-05-02 01:35:25,689 - CoordinatorAgent - INFO - Coordinator Agent Started
+2026-05-02 01:35:25,689 - CoordinatorAgent - INFO - Input request: plan a 4 day trip to ella
+
+2026-05-02 01:35:25,689 - CoordinatorAgent - INFO - Calling Llama3 LLM to extract constraints...
+2026-05-02 01:35:47,221 - CoordinatorAgent - INFO - LLM Extracted Raw Data: {'destination': 'Ella', 'days': 4, 'travelers': 1, 'budget_type': 'standard'}
+2026-05-02 01:35:47,221 - CoordinatorAgent - INFO - Tool Validated Data: {'destination': 'Ella', 'days': 4, 'travelers': 1, 'budget_type': 'standard'}
+2026-05-02 01:35:47,221 - CoordinatorAgent - INFO - Coordinator Agent Finished
+2026-05-02 01:35:47,221 - BudgetAgent - INFO - Budget Agent Started
+2026-05-02 01:35:47,221 - BudgetAgent - INFO - Tool Calculated Budget: {'total_cost': 132000, 'hotel_cost': 60000, 'food_cost': 32000, 'transport_cost': 20000, 'activities_cost': 20000}
+2026-05-02 01:35:47,221 - BudgetAgent - INFO - Calling Llama3 LLM to generate budget tip...
+2026-05-02 01:36:04,344 - BudgetAgent - INFO - LLM Budget Tip: As you explore Sri Lanka's scenic Ella, consider budgeting an extra LKR 20,000 for any last-minute shopping sprees at the local markets and roadside stalls.
+2026-05-02 01:36:04,345 - BudgetAgent - INFO - Budget Agent Finished
+2026-05-02 01:36:04,345 - AccommodationAgent - INFO - Accommodation Agent Started
+2026-05-02 01:36:04,345 - AccommodationAgent - INFO - Tool Found Hotels: 1
+2026-05-02 01:36:04,345 - AccommodationAgent - INFO - Calling Llama3 LLM to select the best hotel...
+2026-05-02 01:36:25,171 - AccommodationAgent - INFO - LLM Chosen Hotel: {'name': 'Ella Standard Inn', 'price_per_night': 11000, 'rating': 4.0}
+2026-05-02 01:36:25,172 - AccommodationAgent - INFO - Accommodation Agent Finished
+2026-05-02 01:36:25,172 - ItineraryAgent - INFO - Itinerary Agent Started
+2026-05-02 01:36:25,174 - ItineraryAgent - INFO - Generated Skeleton Draft Schedule via Tool
+2026-05-02 01:36:25,174 - ItineraryAgent - INFO - Calling Llama3 LLM to finalize itinerary text...
+2026-05-02 01:37:41,184 - ItineraryAgent - INFO - LLM Successfully generated final itinerary
+2026-05-02 01:37:41,184 - ItineraryAgent - INFO - Itinerary Agent Finished

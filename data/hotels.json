@@ -1,14 +1,41 @@
 [
   {"id": 1, "name": "Galle Fort Hotel", "location": "galle", "tier": "luxury", "price_per_night": 35000, "rating": 4.8},
-  {"id": 2, "name": "Galle Budget Stay", "location": "galle", "tier": "budget", "price_per_night": 4500, "rating": 3.9},
-  {"id": 3, "name": "Ocean View Galle", "location": "galle", "tier": "standard", "price_per_night": 12000, "rating": 4.2},
-  {"id": 4, "name": "Ella Jungle Resort", "location": "ella", "tier": "luxury", "price_per_night": 40000, "rating": 4.9},
-  {"id": 5, "name": "Ella Backpackers", "location": "ella", "tier": "budget", "price_per_night": 3500, "rating": 4.1},
-  {"id": 6, "name": "Ella Standard Inn", "location": "ella", "tier": "standard", "price_per_night": 11000, "rating": 4.0},
-  {"id": 7, "name": "Kandy Heritage", "location": "kandy", "tier": "standard", "price_per_night": 14000, "rating": 4.5},
-  {"id": 8, "name": "Kandy Kings Palace", "location": "kandy", "tier": "luxury", "price_per_night": 45000, "rating": 4.7},
-  {"id": 9, "name": "Kandy Hostel", "location": "kandy", "tier": "budget", "price_per_night": 3000, "rating": 3.8},
-  {"id": 10, "name": "Colombo Grand", "location": "colombo", "tier": "luxury", "price_per_night": 38000, "rating": 4.6},
-  {"id": 11, "name": "Colombo City Inn", "location": "colombo", "tier": "standard", "price_per_night": 15000, "rating": 4.0},
-  {"id": 12, "name": "Colombo Backpacker", "location": "colombo", "tier": "budget", "price_per_night": 4000, "rating": 4.3}
+  {"id": 2, "name": "Amangalla Resort", "location": "galle", "tier": "luxury", "price_per_night": 65000, "rating": 4.9},
+  {"id": 3, "name": "Le Grand Galle", "location": "galle", "tier": "luxury", "price_per_night": 45000, "rating": 4.7},
+  {"id": 4, "name": "Ocean View Galle", "location": "galle", "tier": "standard", "price_per_night": 12000, "rating": 4.2},
+  {"id": 5, "name": "Galle Beach Hotel", "location": "galle", "tier": "standard", "price_per_night": 15000, "rating": 4.1},
+  {"id": 6, "name": "Galle Budget Stay", "location": "galle", "tier": "budget", "price_per_night": 4500, "rating": 3.9},
+  {"id": 7, "name": "Galle Backpackers", "location": "galle", "tier": "budget", "price_per_night": 2500, "rating": 4.3},
+
+  {"id": 8, "name": "98 Acres Resort", "location": "ella", "tier": "luxury", "price_per_night": 55000, "rating": 4.9},
+  {"id": 9, "name": "Ella Jungle Resort", "location": "ella", "tier": "luxury", "price_per_night": 40000, "rating": 4.8},
+  {"id": 10, "name": "Chill Ville Hotel", "location": "ella", "tier": "standard", "price_per_night": 14000, "rating": 4.4},
+  {"id": 11, "name": "Ella Standard Inn", "location": "ella", "tier": "standard", "price_per_night": 11000, "rating": 4.0},
+  {"id": 12, "name": "Hangover Hostels Ella", "location": "ella", "tier": "budget", "price_per_night": 3000, "rating": 4.5},
+  {"id": 13, "name": "Ella Backpackers", "location": "ella", "tier": "budget", "price_per_night": 3500, "rating": 4.1},
+
+  {"id": 14, "name": "The Golden Crown", "location": "kandy", "tier": "luxury", "price_per_night": 42000, "rating": 4.8},
+  {"id": 15, "name": "Kings Pavilion", "location": "kandy", "tier": "luxury", "price_per_night": 38000, "rating": 4.7},
+  {"id": 16, "name": "OZO Kandy", "location": "kandy", "tier": "standard", "price_per_night": 16000, "rating": 4.5},
+  {"id": 17, "name": "Kandy Heritage", "location": "kandy", "tier": "standard", "price_per_night": 14000, "rating": 4.3},
+  {"id": 18, "name": "Clock Inn Kandy", "location": "kandy", "tier": "budget", "price_per_night": 3500, "rating": 4.4},
+  {"id": 19, "name": "Kandy Hostel", "location": "kandy", "tier": "budget", "price_per_night": 3000, "rating": 3.8},
+
+  {"id": 20, "name": "Shangri-La Colombo", "location": "colombo", "tier": "luxury", "price_per_night": 60000, "rating": 4.9},
+  {"id": 21, "name": "Cinnamon Grand", "location": "colombo", "tier": "luxury", "price_per_night": 45000, "rating": 4.8},
+  {"id": 22, "name": "Marino Beach Hotel", "location": "colombo", "tier": "standard", "price_per_night": 20000, "rating": 4.6},
+  {"id": 23, "name": "Colombo City Inn", "location": "colombo", "tier": "standard", "price_per_night": 15000, "rating": 4.0},
+  {"id": 24, "name": "City Rest Fort", "location": "colombo", "tier": "budget", "price_per_night": 4500, "rating": 4.4},
+  {"id": 25, "name": "Colombo Backpacker", "location": "colombo", "tier": "budget", "price_per_night": 4000, "rating": 4.3},
+
+  {"id": 26, "name": "Grand Hotel", "location": "nuwara eliya", "tier": "luxury", "price_per_night": 50000, "rating": 4.8},
+  {"id": 27, "name": "Heritance Tea Factory", "location": "nuwara eliya", "tier": "luxury", "price_per_night": 48000, "rating": 4.7},
+  {"id": 28, "name": "Araliya Green Hills", "location": "nuwara eliya", "tier": "standard", "price_per_night": 18000, "rating": 4.5},
+  {"id": 29, "name": "The Hill Club", "location": "nuwara eliya", "tier": "standard", "price_per_night": 14000, "rating": 4.2},
+  {"id": 30, "name": "Hostelite Nuwara Eliya", "location": "nuwara eliya", "tier": "budget", "price_per_night": 3500, "rating": 4.1},
+
+  {"id": 31, "name": "Water Garden Sigiriya", "location": "sigiriya", "tier": "luxury", "price_per_night": 55000, "rating": 4.9},
+  {"id": 32, "name": "Aliya Resort", "location": "sigiriya", "tier": "luxury", "price_per_night": 40000, "rating": 4.6},
+  {"id": 33, "name": "Sigiriya Village", "location": "sigiriya", "tier": "standard", "price_per_night": 16000, "rating": 4.3},
+  {"id": 34, "name": "Sigiriya Backpackers", "location": "sigiriya", "tier": "budget", "price_per_night": 3000, "rating": 4.2}
 ]
